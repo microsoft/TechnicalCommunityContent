@@ -99,7 +99,7 @@ Now that you’ve deployed a DocumentDB account, the next step is to create a da
 
     _Adding a collection_
 
-1. Enter "Customers" (without quotation marks) as the **Collection Id** and select **10 GB** as the **STORAGE CAPACITY**. Select **Create New** under **DATABASE** and specify "CustomerOrders" as the database name. Then click the **OK** button.
+1. Enter "Customers" (without quotation marks) as the **Collection Id** and select **10 GB** as the **STORAGE CAPACITY**, and **400** as the **THROUGHPUT CAPACITY**. Select **Create New** under **DATABASE** and specify "CustomerOrders" as the database name. Then click the **OK** button.
 
     ![Creating a Customers collection](Images/create-collection-and-database.png)
 
