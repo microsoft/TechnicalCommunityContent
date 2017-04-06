@@ -257,7 +257,11 @@ Once you have created an Azure Function App, you can add Azure Functions to it. 
 	```
 	cd BlobImageAnalyis
 	```
+1. Execute the following command to create package.json file:
 
+	```
+	npm init --force -y
+	```
 1. Execute the following command to install the Node Package Manager (NPM):
 
 	```
