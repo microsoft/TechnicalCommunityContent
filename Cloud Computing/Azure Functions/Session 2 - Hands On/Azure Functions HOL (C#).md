@@ -149,7 +149,9 @@ Once you have created an Azure Function App, you can add Azure Functions to it. 
 	    log.Info("Adult Score: " + result.adult.adultScore.ToString());
 	    log.Info("Is Racy: " + result.adult.isRacyContent.ToString());
 	    log.Info("Racy Score: " + result.adult.racyScore.ToString());
-	
+	    
+	    // Reset stream to the beginning 
+	    myBlob.Seek(0, SeekOrigin.Begin);
 	    if (result.adult.isAdultContent || result.adult.isRacyContent)
 	    {
 	        // Copy blob to the "rejected" container
