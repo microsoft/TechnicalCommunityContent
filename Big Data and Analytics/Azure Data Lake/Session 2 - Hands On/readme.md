@@ -364,7 +364,7 @@ Let's get started!
 
     <pre>
 	azure config mode arm
-	azure datalake analytics catalog credential create <i>analytics_account_name</i> UserIntegration tcp://<i>database_server_name</i>.database.windows.net FederatedCredential azureuser</pre>
+	azure datalake analytics catalog secret credential create <i>analytics_account_name</i> UserIntegration tcp://<i>database_server_name</i>.database.windows.net FederatedCredential azureuser</pre>
 
 	When prompted for a password, enter the SQL server password ("Azure4Research!") you specified in Step 13.
 
