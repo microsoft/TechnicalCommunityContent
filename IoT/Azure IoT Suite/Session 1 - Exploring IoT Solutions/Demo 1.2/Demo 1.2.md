@@ -20,7 +20,7 @@ Provisioning an Azure IoT Suite solution takes a few minutes so create it before
 
 ### Provision the solution
 
-1.  Log on to azureiotsuite.com using your Azure account credentials, and click the plus sign to create a new solution.
+1.  Log on to [azureiotsuite.com](https://www.azureiotsuite.com/) using your Azure account credentials, and click the plus sign to create a new solution.
 
     <img src="./media/image1.png" width="343" height="357" />
 
