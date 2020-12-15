@@ -108,7 +108,7 @@ Each attendee will point their smartphone browsers to a Web page that will simul
 
 4.  Next, select IoT Hub in the results tile.
 
-> <img src="./media/image15.png" width="624" height="369" />
+    <img src="./media/image15.png" width="624" height="369" />
 
 1.  Click the Create button.
 
@@ -186,7 +186,7 @@ The messages sent to IoT Hub will be read and analysed using Stream Analytics.
 
 5.  Click on the Inputs tile.
 
-> <img src="./media/image26.png" width="624" height="416" />
+    <img src="./media/image26.png" width="624" height="416" />
 
 1.  Click Add
 
@@ -299,6 +299,8 @@ The last step to prepare this demo is to configure a report in Power BI.
     <img src="./media/image48.png" width="574" height="509" />
 
 6.  Let’s now create a line chart to display the average telemetry for all devices over time.
+
+7.  Make sure the card is not selected anymore, otherwise it will be changed into the new visualization.
 
 7.  Click on the Line visualization, select the avgtelemetry and outtime fields. Make sure that outtime is in the Axis section (you can drag&drop it if needed) and that avgtelemetry is in the Values section. *Select Average from the dropdown menu to average the avgtelemetry field.*
 
