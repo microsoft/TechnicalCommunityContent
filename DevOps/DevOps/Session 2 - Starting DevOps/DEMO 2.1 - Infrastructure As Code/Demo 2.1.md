@@ -157,7 +157,7 @@ Introduction and high-level overview of the Infrastructure As Code DevOps princi
 
  > There are many variables in the template, but let's just describe a few
  >
- > **mrpImageOffer** is a *string* variable that set the virtual machine image to use to Unbuntu.
+ > **mrpImageOffer** is a *string* variable that set the virtual machine image to use to Ubuntu.
  >
  > **mrpImageSku** is a *string* variable that set the version for the virtual machine image.
  > 
