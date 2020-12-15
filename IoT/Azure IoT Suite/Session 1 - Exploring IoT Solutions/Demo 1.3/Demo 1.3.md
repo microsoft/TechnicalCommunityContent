@@ -22,7 +22,15 @@ Perform these steps on the Azure portal for Stream Analytics:
 
     <img src="./media/image1.png" width="592" height="306" />
 
-3.  Save and start the Stream Analytics job.
+3.  Replace the query with this new one replacing the previous query (don’t use the one for demo 1.1)
+
+    ```
+    select *
+    into OutputCommentsPowerBi
+    from simulateddevicesinput
+    ```
+
+4.  Save and start the Stream Analytics job. This should take a minute.
 
 ### Microsoft Cognitive APIs
 
@@ -66,53 +74,47 @@ Explain to the attendees that they’ll use their smartphone, have them enter a 
 
 Demo time!
 
-1.  Stop the Stream Analytics job
-
-2.  Replace the query with this new one replacing the text highlighted in yellow with the name of the new output you created for this demo (don’t use the one for demo 1.1)
-
-3.  Start the Stream Analytics job. This should take a minute.
-
-4.  Show the Demo 2 page on the Web site.
+1.  Show the Demo 2 page on the Web site.
 
     <img src="./media/image4.png" width="570" height="312" />
 
-5.  Explain that you will enter a sentence and it will be analyzed by a text analysis API.
+2.  Explain that you will enter a sentence and it will be analyzed by a text analysis API.
 
-6.  Type a positive sentence and click on the Analyze Text button.
+3.  Type a positive sentence and click on the Analyze Text button.
 
-7.  Explain that a first API call detects the language. A language score of 1 means that the API is 100% sure of the language. 120 languages are supported.
+4.  Explain that a first API call detects the language. A language score of 1 means that the API is 100% sure of the language. 120 languages are supported.
 
-8.  A call to a second API analyze the sentence and tries to figure out if it is positive or negative. 1 being the max positive value and 0 the max negative possibility. English, French, Spanish and Portuguese text are supported.
+5.  A call to a second API analyze the sentence and tries to figure out if it is positive or negative. 1 being the max positive value and 0 the max negative possibility. English, French, Spanish and Portuguese text are supported.
 
     <img src="./media/image5.png" width="553" height="394" />
 
-9.  Type a negative sentence and click on the Analyze Text button.
+6.  Type a negative sentence and click on the Analyze Text button.
 
-10. Head to [www.powerbi.com](http://www.powerbi.com) where you’ll create the new graph.
+7. Head to [www.powerbi.com](http://www.powerbi.com) where you’ll create the new graph.
 
-11. Click on the new dataset that was just created.
+8. Click on the new dataset that was just created.
 
     <img src="./media/image6.png" width="215" height="143" />
 
-12. Select the line chart graph, drag the EventProcessedUtcTime filed as the Axis, drag the sentiment field as the value and select Average from its dropdown menu.
+9. Select the line chart graph, drag the EventProcessedUtcTime filed as the Axis, drag the sentiment field as the value and select Average from its dropdown menu.
 
     <img src="./media/image7.png" width="353" height="733" />
 
-13. You should have a graph that looks like this.
+10. You should have a graph that looks like this.
 
     <img src="./media/image8.png" width="624" height="267" />
 
-14. Click the graph Pin icon to save it and pin it to your dashboard.
+11. Click the graph Pin icon to save it and pin it to your dashboard.
 
-15. Ask the attendees to express their feelings about your local \[hockey, football, baseball, etc\] winning the championship and see the results in real time!
+12. Ask the attendees to express their feelings about your local \[hockey, football, baseball, etc\] winning the championship and see the results in real time!
 
-16. Now on to add a second graph this time displaying a count of the languages found…
+13. Now on to add a second graph this time displaying a count of the languages found…
 
-17. Click on the line chart graph, drag and drop the language field in the Axis and also as the value.
+14. Click on the line chart graph, drag and drop the language field in the Axis and also as the value.
 
     <img src="./media/image9.png" width="355" height="810" />
 
-18. You should have something similar
+15. You should have something similar
 
     <img src="./media/image10.png" width="502" height="340" />
 
