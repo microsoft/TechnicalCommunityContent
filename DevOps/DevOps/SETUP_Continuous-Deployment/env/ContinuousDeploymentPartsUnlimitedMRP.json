@@ -258,7 +258,7 @@
     {
       "name": "[variables('mrpVmName')]",
       "type": "microsoft.insights/components",
-      "location": "centralus",
+      "location": "eastus",
       "apiVersion": "[variables('applicationInsightsApiVersion')]",
       "properties": {
       },
